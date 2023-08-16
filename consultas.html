@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrição</title>
+    
+    <link rel="stylesheet" href="consultas.css">
+</head>
+
+<body>
+    <header>
+        <a href="início.html"><img class="Logo" src="/imagem/Logo teste.png" alt=""></a>
+
+        <ul>
+            <li><a class="active" href="início.html">Início</a></li>
+            <li><a href="consultas.html">Consulta</a></li>
+            <li><a href="contatos.html">Contato</a></li>
+        </ul>
+    </header>
+    <h1 class="titleconsulta">Marque sua consulta aqui</h1>
+    <div class="row input-container">
+
+        <form method="POST" action="consultas.php">
+            <div class="style-form-input full">
+              <input type="text" name="nome" id="nome" required />
+              <label>Nome</label>
+            </div>
+          
+            <div class="style-form-input">
+              <input type="text" name="email" id="email" required />
+              <label>E-mail</label>
+            </div>
+          
+            <div class="style-form-input right">
+              <input type="tel" name="Telefone" id="telefone" required />
+              <label>Telefone:</label>
+            </div>
+          
+            <div class="style-form-input full">
+              <textarea name="mensagem" id="mensagem" required></textarea>
+              <label>Mensagem</label>
+            </div>
+            <div class="style-form-input full">
+              <input type="hidden" name="acao" value="enviar">
+              <button class="btn-submit">Enviar</button>
+            </div>
+          </form>          
+    </div>
+
+    <footer>
+        <div class="div1">
+            <img class="logomarca" src="/imagem/Logo teste.png" alt="logotestando">
+            <p class="contact">Informações de endereço</p>
+            <p class="subcontact">Rua das Flores, 123 Bairro Jardim das Rosas<br>
+                12345-678 Palhoça, Santa Catarina Brasil</p><img class="localizacao" src="/imagem/placeholder.png"
+                alt="localizacao">
+        </div>
+    </footer>
+    
+    <script src="consultas.js"></script>
+</body>
+</html>

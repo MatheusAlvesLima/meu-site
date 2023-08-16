@@ -1,0 +1,135 @@
+footer {
+    background-color: rgb(211, 213, 214);
+    display: flex;
+}
+
+header {
+    background-image: linear-gradient(to right, #ffffff, rgb(211, 212, 213));
+    box-shadow: 2px 2px 2px;
+}
+
+body {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b3a810;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d6d4d4;
+    transition-duration: 1.0s;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+a:hover {
+    opacity: 0.8;
+    color: rgb(43, 43, 43);
+}
+
+.Logo {
+    margin-left: 5%;
+    width: 10%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px;
+    color: black;
+}
+
+.contact {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.logomarca {
+    margin-left: 1%;
+    width: 10%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px;
+    color: black;
+}
+
+.contact{
+    font-size: larger;
+    font-family: cursive;
+    margin-right: 41%;
+    text-align: center;
+    float: right;
+
+}
+
+.subcontact{
+    font-family: cursive;
+    margin-right: 37%;
+    text-align: center;
+    float: right;
+    margin-top: -5%;
+}
+
+.localizacao{
+    margin-right: 48%;
+    text-align: center;
+    float: right;
+    width: 3%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
